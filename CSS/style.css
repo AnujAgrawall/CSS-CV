@@ -1,0 +1,202 @@
+/************************fonts-used*************************\
+
+font-family: 'Merriweather', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Sacramento', cursive;
+
+
+\************************fonts-used*************************/
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    /* background-color: #EAF6F6; */
+    color: #40514E;
+
+}
+
+h1 {
+    color: #66BFBF;
+    margin-top: 50px;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    /* line-height: 2; */
+}
+
+h2 {
+    color: #66BFBF;
+    font-size: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    
+}
+
+h3 {
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 3;
+}
+a {
+    text-decoration: none;
+    color: #11999E;
+}
+p {
+    line-height: 2;
+}
+hr {
+    display: inline-block;
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #d0dfdf;
+    border-width: 7px;
+    width: 5%;
+    margin-bottom: 100px;
+}
+
+.first {
+    background-color: #E4F9F5;
+    position: relative;
+    padding-top: 100px;
+}
+
+.middle-container {
+    /* height: 200px;
+    width: 200px;
+    background-color:red; */
+}
+
+.bottom-container {
+    /* height: 200px;
+    width: 200px;
+    background-color: blue; */
+}
+
+.web {
+    text-decoration: underline;
+
+
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 600px;
+    bottom: 300px;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 600px;
+    top: 50px;
+}
+
+
+.first-h2 {
+    margin-bottom: 50px;
+}
+
+.skill-row {
+    height: 25vh;
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+
+}
+
+
+.skills-img {
+    margin-right: 30px;
+    width: 25%;
+    float: left;
+}
+
+.chilli-img {
+    margin-left: 20px;
+    width: 25%;
+    float: right;
+}
+
+.profile-img {
+    border-color: #ffffff;
+    border-radius: 100%;
+    width: 15%;
+    margin: 100px 0 50px 0;
+    /* background: url("/CSS-mysite/images/Anuj\ Profile\ circle.png") no-repeat; */
+
+}
+.profile-img:hover{
+  -webkit-filter: blur(5px); /* Safari 6.0 - 9.0 */
+  filter: blur(5px);
+}
+.profile-description {
+    margin: 80px auto 120px;
+    /* color: #40514E; */
+    font-size: 1.3rem;
+    width: 29vw;
+}
+.skills-img{
+    position: relative;
+    bottom: 10%;
+    border-radius: 100%;
+}
+.skills-img:hover{
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    
+}
+.chilli-img:hover{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%); 
+    filter: drop-shadow(8px 8px 10px rgb(255, 0, 0));
+}
+
+.contact-description {
+    margin: 90px 0;
+}
+
+.btn {
+    /* margin: 50px 0; */
+    -webkit-border-radius: 12;
+    -moz-border-radius: 12;
+    border-radius: 8px;
+    color: #EAF6F6;
+    font-size: 30px;
+    background: #66BFBF;
+    padding: 2px 20px 2px 20px;
+    border: solid #66BFBF 2px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #31de9e;
+    text-decoration: none;
+}
+
+.button-description {
+    margin-bottom: 90px;
+    /* margin-top: 30px; */
+}
+
+.bottom-container {
+    margin-top: 100px;
+    background-color: #66BFBF;
+    height: 20vh;
+    padding-top: 50px;
+    font-size: 1.2rem;
+}
+
+.footer-link {
+    padding-right: 70px;
+}
+
+.copyright {
+    padding-top: 50px;
+    color: #EAF6F6;
+}
+
+.footer-link:hover {
+    color: #EAF6F6;
+}
